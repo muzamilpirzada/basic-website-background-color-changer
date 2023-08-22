@@ -1,4 +1,5 @@
 let btn =document.querySelector('#btn1');
+let hexaCode =document.querySelector('#hexacode');
 //  var index=0
 
  // change random number into hexa code for color; 
@@ -11,8 +12,11 @@ let btn =document.querySelector('#btn1');
 //   console.log('#'+randonNumber.slice(0, 6));
 
  function changeColors(){
+     var randomHexa =randomHexColorCode();
     // var color =["red","blue","green","yellow","brown"];
-    document.body.style.backgroundColor =randomHexColorCode();
+    document.body.style.backgroundColor =randomHexa;
+    hexaCode.innerText=randomHexa;
+    
     
 
 
