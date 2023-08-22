@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#btn1{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
